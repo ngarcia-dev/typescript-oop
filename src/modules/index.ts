@@ -1,4 +1,4 @@
-import { Group } from "./Group";
+import Group from "./Group";
 import { Point } from "./Point";
 
 const point = new Point(1, 2);

@@ -21,8 +21,9 @@ abstract class DatosBasicos {
   constructor(
     public name: string,
     public desc: string,
+    // las propiedades protected solo son accesibles dentro de la clase y sus subclases
     protected created_at: Date,
-    protected created_by: number // las propiedades protected solo son accesibles dentro de la clase y sus subclases
+    protected created_by: number
   ) {}
 
   get fullYear() {
